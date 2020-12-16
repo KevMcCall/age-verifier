@@ -1,3 +1,50 @@
+
+
+
+//CODE 
+//LEFT
+//HERE
+//FOR
+//REFERENCE
+
+
+
+// function assignGrade(score) {
+
+
+//     if (score > 90) {
+//         return 'A';
+//     }
+
+//     if (score > 80) {
+//         return 'B';
+//     }
+//     if (score > 70) {
+//         return 'C';
+//     }
+//     if (score > 60) {
+//         return 'D';
+//     }
+
+//     else {
+//         return 'F';
+//     }
+
+
+// }
+
+// document.write(' You got an ' + assignGrade(85) + "<br>");
+// document.write(' You got an ' + assignGrade(95) + "<br>");
+// document.write(' You got an ' + assignGrade(56) + "<br>");
+// document.write(' You got an ' + assignGrade(100) + "<br>");
+
+// assignGrade();
+
+
+
+
+
+
 // document.write("Hello World"+"<br/>");
 // document.write("Hello World"+"<br/>");
 // document.write("Hello World"+"<br/>");
@@ -100,34 +147,5 @@
 //alert
 
 
-function assignGrade(score) {
 
-
-    if (score > 90) {
-        return 'A';
-    }
-
-    if (score > 80) {
-        return 'B';
-    }
-    if (score > 70) {
-        return 'C';
-    }
-    if (score > 60) {
-        return 'D';
-    }
-
-    else {
-        return 'F';
-    }
-
-
-}
-
-document.write(' You got an ' + assignGrade(85) + "<br>");
-document.write(' You got an ' + assignGrade(95) + "<br>");
-document.write(' You got an ' + assignGrade(56) + "<br>");
-document.write(' You got an ' + assignGrade(100) + "<br>");
-
-assignGrade();
 
