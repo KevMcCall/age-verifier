@@ -1,6 +1,6 @@
 function favDrinks() {
     var text;
-    var drinks = document.getElementById("inputbox").value;
+    var drinks = (document.getElementById("inputbox").value).toLowerCase();
 
     //Switch(expression) to select code blocks to be executed.
     switch (drinks) {
@@ -24,7 +24,7 @@ function favDrinks() {
         case "Cranberry", "cranberry":
             toext = "Cranberry Cosmopolitan";
             break;
-        case "Banana", "Banana":
+        case "Banana", "banana":
             text = "Dirty Banana Cocktail";
             break;
         case "Watermelon", "watermelon":
