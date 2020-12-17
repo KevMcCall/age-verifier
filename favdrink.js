@@ -7,6 +7,7 @@ function favDrinks() {
         //Cases to be tested against the expression.
         case "Pineapple", "pineapple":
             text = "Pineapple Rum Punch";
+            break;
         case "Apple", "apple":
             text = "Apple Whiskey Sour";
             //If case matches, code will execute, and break will end switch block.
@@ -21,7 +22,7 @@ function favDrinks() {
             text = "Orange Crush";
             break;
         case "Cranberry", "cranberry":
-            text = "Cranberry Cosmopolitan";
+            toext = "Cranberry Cosmopolitan";
             break;
         case "Banana", "Banana":
             text = "Dirty Banana Cocktail";
@@ -30,7 +31,8 @@ function favDrinks() {
             text = "Watermelon Sangria";
             break;
         //If none of the cases match, default text is ran
-        default: text = "There are no drinks with that selection."
+        default: 
+        text = "There are no drinks with that selection."
     }
     document.getElementById("favdrinkresult").innerHTML = text;
 }
